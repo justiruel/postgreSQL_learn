@@ -6,7 +6,7 @@ returns SETOF record as $$
     select * from company where name=$1
 $$ language 'sql';
 ```
-## cara panggil
+### cara panggil
 ```
 select semua('joni')
 ```
@@ -17,7 +17,7 @@ returns table(name text, age integer) as $$
     select name,age from company where name=$1
 $$ language 'sql';
 ```
-## cara panggil
+### cara panggil
 ```
 select * from semua_row('joni')
 ```
@@ -28,7 +28,7 @@ returns table(name text, age integer) as $$
     select name,age from company where name LIKE '%' || $1 || '%'
 $$ language 'sql';
 ```
-## cara panggil
+### cara panggil
 ```
 select * from semua_like('han')
 ```
@@ -39,7 +39,7 @@ returns varchar as $$
     select name from company where name=$1
 $$ language 'sql';
 ```
-##cara panggil
+### cara panggil
 ```
 select * from semua_varchar('joni')
 ```
