@@ -1,4 +1,4 @@
-# STORE_PROCEDURE_FUNCTION
+# STORE PROCEDURE / FUNCTION
 ## return setof record
 ```
 CREATE OR REPLACE FUNCTION semua(nama varchar) 
