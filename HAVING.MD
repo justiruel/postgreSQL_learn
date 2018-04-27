@@ -5,13 +5,13 @@ having digunakan sebagai pengganti where sesudah query di group by
 
 table
 ```
-name		  address		  age	salary
-"alde"		"tuban"		  20	3000000
-"afkar"		"kediri"	  20	2500000
-"anang"		"nganjuk"	  26	4000000
-"jimmy"		"tangerang"	27	10000000
-"randy"		"tuban"		  23	5000000
-"aefin"		"tuban"		  24	7000000
+name      address     age salary
+"alde"    "tuban"     20  3000000
+"afkar"   "kediri"    20  2500000
+"anang"   "nganjuk"   26  4000000
+"jimmy"   "tangerang" 27  10000000
+"randy"   "tuban"     23  5000000
+"aefin"   "tuban"     24  7000000
 ```
 
 query group by
