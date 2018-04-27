@@ -67,7 +67,7 @@ hasil :
 address      count  max
 "tangerang" "1"     10000000
 ```
-ini maksudnya : tampilkan record yang salary > 4000000, lalu hasilnya di group by address, lalu salary yang punya address yang sama dihitung rata-rata nya
+ini maksudnya : tampilkan record yang salary > 4000000, lalu hasilnya di group by address, lalu salary yang punya address yang sama dihitung rata-rata nya, dan record address yg memiliki salary rata2 = 10000000 ditampilkan
 
 
 
