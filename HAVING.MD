@@ -21,9 +21,9 @@ select address, count(salary), max(salary) from visionet where salary > 4000000 
 
 hasil grouping
 ```
-address		  count	max
-"tuban"		  "2"		7000000
-"tangerang"	"1"		10000000
+address     count max
+"tuban"     "2"   7000000
+"tangerang" "1"   10000000
 ```
 ini artinya record di group berdasarkan address
 
@@ -37,8 +37,8 @@ select address, count(salary), max(salary) from visionet where salary > 4000000 
 
 hasil : 
 
-address		count	max
-"tuban"		"2"		7000000
+address   count max
+"tuban"   "2"   7000000
 ```
 
 ```
@@ -46,8 +46,8 @@ select address, count(salary), max(salary) from visionet where salary > 4000000 
 
 hasil : 
 
-address		  count	max
-"tangerang"	"1"		10000000
+address     count max
+"tangerang" "1"   10000000
 ```
 
 ```
@@ -55,8 +55,8 @@ select address, count(salary), max(salary) from visionet where salary > 4000000 
 
 hasil : 
 
-address		  count	max
-"tangerang"	"1"		10000000
+address     count max
+"tangerang" "1"   10000000
 ```
 
 Dapat juga digunakan untuk semua fungsi aggregate lain yang tidak ikut ke select 
@@ -64,8 +64,8 @@ Dapat juga digunakan untuk semua fungsi aggregate lain yang tidak ikut ke select
 select address, count(salary), max(salary) from visionet where salary > 4000000 group by address having avg(salary) = 10000000
 hasil : 
 
-address		  count	max
-"tangerang"	"1"		10000000
+address      count  max
+"tangerang" "1"     10000000
 ```
 ini maksudnya : tampilkan record yang salary > 4000000, lalu hasilnya di group by address, lalu salary yang punya address yang sama dihitung rata-rata nya
 
